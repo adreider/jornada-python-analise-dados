@@ -1,4 +1,4 @@
-# 📊 Jornada Python - Aula 2: Análise de Dados (Previsão de Churn)
+# 📊 Jornada Python: Análise de Dados (Previsão de Churn)
 
 > **Case de Negócio:** Fui contratado por uma empresa de grande porte com uma base de mais de 800.000 clientes. Recentemente, a diretoria percebeu que a maioria da base total de clientes tornou-se inativa (cancelou o serviço). O objetivo deste projeto é analisar essa base histórica para identificar os principais motivos de cancelamento (Churn) e propor ações eficientes para reduzir esse número ao mínimo.
 
@@ -35,3 +35,6 @@ Para otimizar o processo, criei uma estrutura de repetição `for` para automati
 for coluna in tabela.columns:
     grafico = px.histogram(tabela, x=coluna, color="cancelou", text_auto=True)
     grafico.show()
+```
+<img width="1920" height="1022" alt="Captura de Tela (34)" src="https://github.com/user-attachments/assets/4af86f73-7963-4b5d-a50b-14dca3e92a69" />
+
